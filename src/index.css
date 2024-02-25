@@ -147,7 +147,7 @@ header p {
   border-radius: 8px;
   padding: 2rem;
   background-color: #d7fcf8;
-  top:40%;
+  top:0%;
 }
 
 .result-modal[open] {
@@ -223,12 +223,3 @@ header p {
   }
 }
 
-.modal-overlay{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8); /* Zatamnjenje sa 50% prozirnosti */
-  z-index: 9999; /* Postavite veći z-index od moda kako bi bio iznad ostalog sadržaja */
-}
